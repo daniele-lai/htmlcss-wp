@@ -1,0 +1,68 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  height: 100px;
+  background-color: pink;
+  margin: 20px 0;
+}
+
+.banner {
+  height: 400px;
+  background-color: beige;
+  margin: 20px 0;
+}
+
+/* Section con le colonne */
+.main-box {
+  height: 500px;
+  background-color: dodgerblue;
+  margin: 10px 0;
+}
+
+.headline {
+  height: 50px;
+  background-color: lightblue;
+  margin: 20px 0;
+}
+
+.col-left {
+  height: 410px;
+  width: 24%;
+  background-color: lightblue;
+  float: left;
+}
+
+.col-center {
+  height: 410px;
+  width: 50%;
+  background-color: lightblue;
+  float: left;
+  margin: 0 1%;
+}
+
+.col-right {
+  height: 410px;
+  width: 24%;
+  background-color: lightblue;
+  float: left;
+}
+
+footer {
+  height: 50px;
+  background-color: rebeccapurple;
+}
