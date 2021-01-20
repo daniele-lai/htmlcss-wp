@@ -49,12 +49,14 @@ header li {
   border-radius: 10px;
 }
 
+
 .banner-text {
   position: absolute;
   top: 64%;
   left: 3%;
   width: 50%;
-  /* color: #fff; */
+  color: #fff;
+  z-index: 2;
 }
 
 .banner-text h3, p {
@@ -63,6 +65,7 @@ header li {
 
 .banner-text h3 {
   font-size: 23px;
+  font-weight: 400;
 }
 
 /* Section con le colonne */
@@ -82,7 +85,7 @@ header li {
 }
 
 .headline {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .headline h1, p {
@@ -137,4 +140,17 @@ footer {
 footer span {
   color: red;
   font-size: 25px;
+}
+
+/* Overlay */
+.overlay-banner {
+  height: 510px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.overlay {
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
