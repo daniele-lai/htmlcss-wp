@@ -38,10 +38,30 @@ header li {
   padding-right: 12px;
 }
 
+/* Banner */
 .banner {
-  height: 400px;
-  background-color: beige;
+  height: 510px;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
   margin: 20px 0;
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  top: 64%;
+  left: 3%;
+  width: 50%;
+  /* color: #fff; */
+}
+
+.banner-text h3, p {
+  margin: 0;
+}
+
+.banner-text h3 {
+  font-size: 23px;
 }
 
 /* Section con le colonne */
