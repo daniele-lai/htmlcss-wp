@@ -46,6 +46,7 @@ header li {
   background-position: center;
   margin: 20px 0;
   position: relative;
+  border-radius: 10px;
 }
 
 .banner-text {
@@ -67,39 +68,72 @@ header li {
 /* Section con le colonne */
 .main-box {
   height: 500px;
-  background-color: dodgerblue;
   margin: 10px 0;
 }
 
+.main-box p {
+  color: #929292;
+  font-size: 13px;
+}
+
+.main-box h5 {
+  font-weight: 400;
+}
+
 .headline {
-  height: 50px;
-  background-color: lightblue;
   margin: 20px 0;
 }
 
+.headline h1, p {
+  margin: 0;
+}
+
+.headline h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.col-img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.col-img.left{
+  background-image: url(../img/img-1.jpg);
+}
+
+.col-img.center{
+  background-image: url(../img/banner-2.jpg);
+}
+
+.col-img.right{
+  background-image: url(../img/img-3.jpg);
+}
+
 .col-left {
-  height: 410px;
-  width: 24%;
-  background-color: lightblue;
+  width: 20%;
   float: left;
 }
 
 .col-center {
-  height: 410px;
-  width: 50%;
-  background-color: lightblue;
+  width: 58%;
   float: left;
   margin: 0 1%;
 }
 
 .col-right {
-  height: 410px;
-  width: 24%;
-  background-color: lightblue;
+  width: 20%;
   float: left;
 }
 
 footer {
-  height: 50px;
-  background-color: rebeccapurple;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer span {
+  color: red;
+  font-size: 25px;
 }
